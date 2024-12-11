@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    /* flex-shrink: 0; */
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
