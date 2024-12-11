@@ -96,7 +96,8 @@ a {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    gap: 30px;
+    margin-bottom: 60px;
+    gap: 50px;
 }
 
 .card_image {
@@ -120,4 +121,74 @@ a {
     text-align: center;
     color: rgb(54, 54, 54);
     margin-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.words {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.action {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.left_text {
+    margin-left: 60px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.description {
+    color: #F9FAF8;
+}
+
+.button_2 {
+    margin-right: 60px;
+    width: 80px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
 }
